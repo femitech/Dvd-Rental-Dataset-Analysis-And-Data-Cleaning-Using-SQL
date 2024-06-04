@@ -1,34 +1,60 @@
-# DVD Renter Dataset
-## Project overview
-The DVD rental database is a sample database used for learning and practicing SQL. It includes tables for customers, films, 
-rentals, payments, actors, and more. The schema provides a comprehensive set of data that simulates a real-world DVD rental business. Using PostgreSQL
+# Data Query and Data Cleaning in PostgreSQL Using DVD Rental 
+## Project Overview:
+This project focuses on querying and cleaning the DVD rental dataset using PostgreSQL. 
+The primary aim is to ensure data integrity and prepare the dataset for advanced analysis and reporting.
 
-### Objective
-1.	Data Querying: Extract specific information from the database to answer business questions
-2.	Data Cleaning: Identify and rectify any inaccuracies, inconsistencies, or incomplete data within the database.
+## Objectives:
+•	Clean and standardize the DVD rental dataset.
+
+•	Perform complex SQL queries to extract valuable insights.
+
+•	Ensure data integrity and consistency across the dataset.
+
+## Data Source:
+
+•	DVD rental dataset containing information on customers, rentals, inventory, and films.
+
+## Key Features:
+
+### 1.	Data Cleaning:
    
-### Files description
-  •	Read.me: This file. Provides an overview and instructions for the project
-  •	Queries/data_query.sql: Contains SQL scripts for querying data from the DVD rental database.
-  •	Queries/data_cleaning.sql: Contains SQL scripts for cleaning the data.
-  •	Output/Query_result.sql: Results of the data queries, exported as a CSV file:
-  •	Output/Cleaned_data.sql: Cleaned data, exported as a CSV file
+•	Identified and handled missing values, duplicates, and inconsistencies.
 
-1.	### Instruction
-    SETTING UP DATABASE
-    Ensure you have the DVD rental database installed on your PostgreSQL server. Follow the instructions on the PostgreSQL website to download and restore the database if necessary.
-  	
-2.	### Running the Queries 
-    #### Data Query
-     1. Open your PostgreSQL client (e.g., pgAdmin, psql
-     2.	Connect to the DVD rental database
-     3.	Open and execute the SQL script located in queries/data_query.sql
-     4.	Review the output of the queries. You can save the results as  query_result.sql
-        
-     #### Data Cleaning
-      1.	Open your PostgreSQL client (e.g., pgAdmin, psql.
-      2.	Connect to the DVD rental database
-      3.	Open and execute the SQL script located in  Queries/data_cleaning.sql
-      4.	Review the changes made to the data. You can save the cleaned data as clean_data.csv.
-      5.	Review the changes made to the data. You can save the cleaned data as cleaned_data.csv
+•	Standardized data formats to ensure uniformity across the dataset.
+
+### 2.	Data Transformation:
+
+•	Used SQL functions to transform and aggregate data.
+
+•	Created new calculated fields to support analysis.
+
+### 3.	Data Querying:
+
+•	Developed complex SQL queries to extract meaningful insights from the dataset.
+
+•	Conducted joins, subqueries, and CTEs (Common Table Expressions) to analyze relationships between different tables.
+
+### 4.	Data Integrity:
+   
+•	Ensured referential integrity and consistency across tables.
+
+•	Validated data entries to maintain high data quality.
+
+### 5.	Reporting:
+   
+•	Compiled query results into a structured format for reporting.
+
+•	Provided insights and recommendations based on the query results.
+
+Key SQL Techniques Used:
+
+•	Data Cleaning: UPDATE, DELETE, CASE statements.
+
+•	Data Transformation: CAST, COALESCE, string functions.
+
+•	Joins: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN.
+
+•	Subqueries and CTEs: Extracted and organized data efficiently.
+
+•	Aggregations: SUM, AVG, COUNT, GROUP BY.
 
